@@ -16,7 +16,7 @@ public class student_grade_calculator {
 		int comp_marks = sc.nextInt();
 		System.out.println("The total marks obtained by "+student_name+" in all subjects is : "+(math_marks+eng_marks+sc_marks+ss_marks+comp_marks));
 		double percentage = (math_marks+eng_marks+sc_marks+ss_marks+comp_marks)/5;
-		System.out.println("The total marks obtained by "+student_name+" in all subjects is : "+percentage+"%");
+		System.out.println("The percentage obtained by "+student_name+" is : "+percentage+"%");
 		if (percentage > 95)
 			System.out.println("The Grade obtained by "+student_name+" is A+");
 		else if (percentage > 90)
